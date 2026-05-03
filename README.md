@@ -3,11 +3,13 @@
 ![JSONConnect Banner](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 ![Tech Stack](https://img.shields.io/badge/Tech_Stack-React_%7C_Vite_%7C_React_Query-blue?style=for-the-badge)
 
-**JSONConnect** is a complete, production-ready frontend web application built as an educational showcase for the capabilities of agentic AI. It acts as a unified social dashboard, interacting exclusively with the [JSONPlaceholder](https://jsonplaceholder.typicode.com/) public mock API.
+**JSONConnect** is a complete web application built as an educational showcase for the capabilities of agentic AI. It acts as a unified social dashboard, interacting exclusively with the [JSONPlaceholder](https://jsonplaceholder.typicode.com/) public mock API.
 
-This application was autonomously designed and built by **Google Antigravity**, an advanced agentic coding assistant developed by the Google Deepmind team, through a process known as "Vibe Coding."
+This application was autonomously designed and built by **Google Antigravity**, through a process known as "Vibe Coding."
 
-To learn more about how to build amazing applications using AI, check out this excellent tutorial from Google: **[The Vibe Coding Handbook](http://goo.gle/itsvibecoding)**.
+## 🎬 Demo
+
+![JSONConnect Demo Walkthrough](./demo.webp)
 
 ## 🎯 Core Concept & Features
 
