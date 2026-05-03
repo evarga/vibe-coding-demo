@@ -19,7 +19,7 @@ export default function Navbar() {
             <Home size={20} />
             <span className={styles.navText}>Feed</span>
           </NavLink>
-          <NavLink to="/users" className={({ isActive }) => isActive ? `${styles.navItem} ${styles.active}` : styles.navItem}>
+          <NavLink to="/users" end className={({ isActive }) => isActive ? `${styles.navItem} ${styles.active}` : styles.navItem}>
             <Users size={20} />
             <span className={styles.navText}>Network</span>
           </NavLink>
