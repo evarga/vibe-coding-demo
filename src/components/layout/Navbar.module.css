@@ -1,0 +1,142 @@
+.navbar {
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.navContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  min-width: 150px;
+}
+
+.logoText {
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent-primary), #60a5fa);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.navLinks {
+  display: flex;
+  gap: 0.5rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-full);
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.navItem:hover {
+  color: var(--text-primary);
+  background-color: var(--bg-surface-hover);
+}
+
+.navItem.active {
+  color: var(--text-primary);
+  background-color: var(--accent-primary);
+}
+
+.userMenu {
+  display: flex;
+  align-items: center;
+  min-width: 150px;
+  justify-content: flex-end;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  padding: 0.25rem 0.75rem 0.25rem 0.25rem;
+  border-radius: var(--radius-full);
+  transition: background-color 0.2s ease;
+}
+
+.userProfile:hover {
+  background-color: var(--bg-surface-hover);
+}
+
+.userName {
+  color: var(--text-primary);
+  font-weight: 500;
+  font-size: 0.875rem;
+  display: none;
+}
+
+.userAvatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent-primary), #8b5cf6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.userAvatarSkeleton {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--bg-surface-hover);
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+@media (min-width: 768px) {
+  .userName {
+    display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  .navText {
+    display: none;
+  }
+  .navItem {
+    padding: 0.5rem;
+  }
+  .logoText {
+    font-size: 1.25rem;
+  }
+  .logo, .userMenu {
+    min-width: auto;
+  }
+  .userProfile {
+    padding: 0.25rem;
+  }
+}
