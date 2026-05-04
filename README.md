@@ -109,7 +109,7 @@ gcloud run deploy jsonconnect \
 
 To learn more about the concepts and patterns utilized in this project, explore the following resources:
 
-*   **Vibe Coding Handbook**: [http://goo.gle/itsvibecoding](http://goo.gle/itsvibecoding) - The official Google tutorial on agentic development.
+*   **Vibe Coding Paradigm**: [Vibe Coding Handbook](https://goo.gle/itsvibecoding) - The official Google tutorial on agentic development.
 *   **Optimistic UI Updates**: [TanStack Query Documentation](https://tanstack.com/query/latest/docs/framework/react/guides/optimistic-updates) - Explains how to update the UI before a mutation completes for a snappy user experience.
 *   **Component-Based Architecture**: [Thinking in React](https://react.dev/learn/thinking-in-react) - Guidelines on breaking down UIs into reusable, focused components.
 *   **Containerizing React Apps**: [Dockerizing a React App](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/) - Best practices for building efficient Node.js Docker images.
